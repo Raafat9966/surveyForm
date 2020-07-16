@@ -11,6 +11,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -72,6 +74,11 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #eeff00;
 }
 
 button {
